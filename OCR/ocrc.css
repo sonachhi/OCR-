@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f8;
+    color: #333;
+}
+.ocr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    padding: 20px;
+}
+.navbar {
+    top: 0%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #433D8B;
+    padding: 15px 20px 15px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.navbar h1 {
+    color: #fff;
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    background-color: #433D8B;
+    margin-left: 2%;
+    width: 20%;
+    height: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container p {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.file-btn-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -80px;
+}
+.fileh {
+    font-weight: bold;
+    font-size: 100%; /* Adjust this value to change the size */
+    color: #433D8B;
+}
+.file, .btn {
+    color: #ffffff;
+    background-color: #433D8B;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.file:hover, .btn:hover {
+    background-color: #555086;
+}
+.text {
+    width: 50%;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    resize: none;
+    font-family: 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}
+.text:focus {
+    outline: none;
+    border-color: #433D8B;
+    box-shadow: 0 0 5px rgba(67, 61, 139, 0.5);
+}
+.btn {
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 12px;
+    text-align: center;
+}
+.btn-primary {
+    background-color: #433D8B;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.btn-primary:hover {
+    background-color: #555086;
+}
